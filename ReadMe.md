@@ -10,6 +10,7 @@ Customizable and easy-to-use alert box for React Native.
 <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYX00T-tTFxCusRqURiAOy2RBkq0qbj5H2SsJp_fZdDmrIAJnIhNsoVkisAEaBLxj0v32cM_kbYju8GAWr-F2DUFOSeRQ=s1600" alt="drawing3" width="150"/>
 <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZQMUoByEY9mwBNMgSuH-7v636eODB3Y6rb2MC-Y7I1Jc9j5QP9zHif-09nx6McJzsFE2oGMUob1cHu2USguDdWaSQ8=s1600" alt="drawing4" width="150"/>
 </p>
+
 ## Installation
 
 Install my-project with npm
@@ -100,6 +101,32 @@ const App = () => {
 
 export default App
 ```
+
+### Alert Box Props
+
+| Parameter                 | Type         | Description                                                                        |
+| :------------------------ | :----------- | :--------------------------------------------------------------------------------- |
+| `showAlertModal`          | `boolean`    | Pass the **true** or **false** value to show alert box.                            |
+| `AlertType`               | `string`     | Pass type - "Success", "Danger", "Primary", "Secondary", "Warning", "Dark".        |
+| `AlertBoxOpacity`         | `decimals`   | Pass background opacity value from 0 to 1.                                         |
+| `AlertBoxWidthPercent`    | `percentage` | Pass alert box width in percentage from 0% to 100%.                                |
+| `HeadingText`             | `string`     | Pass alert heading in string.                                                      |
+| `BodyText`                | `string`     | Pass alert body text in string.                                                    |
+| `ButtonLeftText`          | `string`     | Pass alert left button text.                                                       |
+| `ButtonRightText`         | `string`     | Pass alert right button text.                                                      |
+| `ButtonLeftFunction`      | `function`   | Pass a callback function for left button functionality.                            |
+| `ButtonRightFunction`     | `function`   | Pass a callback function for right button functionality.                           |
+
+### Vector Icon SVG Props
+| Parameter                 | Type         | Description                                                                        |
+| :------------------------ | :----------- | :--------------------------------------------------------------------------------- |
+| `IconPackageName`         | `string`     | Pass the vector icon package name - "AntDesign", "Entypo", "EvilIcons", etc..      |
+| `IconName`                | `string`     | Pass the icon name.                                                                |
+| `IconSize`                | `numbers`    | Pass the icon size.                                                                |
+| `IconColor`               | `string`     | Pass the icon color.                                                               |
+| `IconScaling`             | `numbers`    | Adjust the scaling value so it scales for different devices.                       |
+
+
 
 ## Authors
 
