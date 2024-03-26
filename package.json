@@ -1,12 +1,22 @@
 {
   "name": "react-native-custom-alert-box",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "It is a react native alert box for all devices.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/AakashThakur23102000/react-native-custom-alert-box"
   },
+  "keywords": [
+    "react-native",
+    "alerts",
+    "alert",
+    "react-native-alerts",
+    "react-native-alert",
+    "react-native-custom-alert-box",
+    "custom-alerts",
+    "react-native-alert-modal"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
