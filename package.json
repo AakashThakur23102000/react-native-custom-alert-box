@@ -1,6 +1,6 @@
 {
   "name": "react-native-custom-alert-box",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "It is a react native alert box for all devices.",
   "main": "index.js",
   "repository": {
